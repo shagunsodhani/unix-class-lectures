@@ -15,3 +15,13 @@ program SQUARE_PROG
 		square_out SQUAREPROC(square_in) = 1;
 	} = 1;
 } = 0x31230000;
+
+/*
+program SQUARE_PROG
+ {
+    version SQUARE_VERS
+    {
+        square_out SQUAREPROC(square_in) = 1;
+    } = 1;
+} = 0x31230000;
+*/
