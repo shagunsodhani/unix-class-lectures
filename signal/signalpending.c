@@ -46,6 +46,7 @@ int main()
     //signal(SIGCONT, catcher);
     kill(0, SIGINT);
     //kill(0, SIGCONT);
+    sigpending(&pendmask);
     printf("SIGINT shld be caught after this.\n");
     sleep(5);
     printf("%d pendmask \n", pendmask);
